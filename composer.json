@@ -1,0 +1,21 @@
+{
+    "name": "khouloud/library-management",
+    "description": "A library management system in PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LibraryManagement\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "khouloud Haddad Amamou",
+            "email": "khouloud.haddad@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}

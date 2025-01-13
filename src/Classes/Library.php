@@ -22,12 +22,12 @@ class Library
     public function listBooks(): void
     {
         if (empty($this->books)) {
-            echo "No books available in the library.\n";
+            echo nl2br("No books available in the library.\n");
             return;
         }
 
         foreach ($this->books as $book) {
-            echo "Title: {$book->getTitle()}, Author: {$book->getAuthor()}, ISBN: {$book->getIsbn()}\n";
+            echo nl2br("Title: {$book->getTitle()}, Author: {$book->getAuthor()}, ISBN: {$book->getIsbn()}\n");
         }
     }
 }
