@@ -17,6 +17,7 @@ A simple library management system built in PHP using object-oriented programmin
 
 ## Project Structure
 
+```
 LibraryManagement/
 |-- composer.json
 |-- composer.lock
@@ -38,6 +39,8 @@ LibraryManagement/
 - Coding Standards: PSR-12
 - Namespace Autoloading: PSR-4
 - Testing Framework: PHPUnit
+```
+---
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
